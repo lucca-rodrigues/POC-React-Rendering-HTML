@@ -6,7 +6,10 @@ import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReactionsComponent />
+    <ReactionsComponent
+      wherever={document.getElementById("app").getAttribute("data-wherever")}
+      onselect={document.getElementById("app").getAttribute("data-on-select")}
+    />
   </React.StrictMode>,
   document.getElementById("app")
 );

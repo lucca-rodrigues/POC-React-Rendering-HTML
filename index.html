@@ -7,7 +7,7 @@
     <title>Poc Laravel/React</title>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app" data-wherever="Lucas teste" data-on-select="alert('clicou')"></div>
 </body>
 <script src="./dist/bundle.js"></script>
 </html>
